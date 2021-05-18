@@ -1,0 +1,122 @@
+<html>
+ <head>
+	<title>Details</title>
+     <link href="assets/css/styles.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+   
+   
+      <div class="topnav">
+  <a href="index.html">HOME</a>
+  <a href="search.html">SEARCH</a> 
+  <a href="details.html">DETAILS</a>
+          
+</div> 
+    
+    <h1>Stunning Penthouse in Prime area!!! (Midtown East) </h1>
+    
+    <br>
+    
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/00101_2lroHcpsUrFz_0g80aL_600x450.jpg" style="width:100%">
+  <div class="text">Living Room</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/00808_ce5fGl4xagvz_0g80aL_600x450.jpg" style="width:100%">
+  <div class="text">Bathroom</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/00a0a_79s5dk1bjVnz_0g80ct_600x450.jpg" style="width:100%">
+  <div class="text">Layout</div>
+    
+ 
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<br>
+
+    <br>
+    <br>
+    Call or text
+    <br>
+<br>Maya - 929-319-0099
+<br>
+<br>Penthouse D is a premier, one of kind 2 bedroom replete with two baths, a chefs kitchen, and a gracious 2nd level private terrace to enjoy year round
+<br>
+<br>Settled in the Southwest corner of the building, you enter into a formal entry hall guiding you into the massive sun-drenched living and dining rooms, perfect for both intimate and larger scale entertaining
+<br>
+<br>The decorative original fireplace is one of many historic details the residence features while the floor to ceiling windows allow you to fully immerse yourself in the towering views of the skyline.
+
+<br><br>The bedrooms are located on opposite sides of the home allowing ample privacy for any guests that stay over.
+The 2nd level solarium can be transformed into another bedroom with its very own private terrace or a grand separate space to enjoy all year round.
+<br>
+<br>Perfectly located in Midtown East, residents enjoy the best shopping, dining, & entertainment in the area.
+<br>
+<br>The building also provides full service concierge, pool, a full health club, on-site laundry, playroom, conference room, and lounge. Convenient access to all types of transportation, a vast array of shopping and dining
+
+The advertised rent is net effective with 1.5 months free. Gross rent is 8500
+<br>
+    <br>
+    <div class="footer">
+  <form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+</div>
+    
+        
+        <div class="cta-stick">
+          
+<a href="index.html">home</a>
+<a href="search.html">search</a>
+<a href="details.html">details</a>
+</div> 
+    
+    </body>
+</html>
